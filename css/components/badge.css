@@ -1,0 +1,13 @@
+.badge {
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  /* width, height의 크기 절반값을 border-radius가 갖는다면 원모양*/
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  /* 텍스트 가운데 정렬 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
